@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <AdditionalFiles Include="Files\NewFile1.txt" />
+        <AdditionalFiles Include="Files\Шаблон_штампа_изменений.dwg" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+        <AdditionalFileItemNames>$()</AdditionalFileItemNames>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Base64SourceGenerator\Base64SourceGenerator\Base64SourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>
+    </ItemGroup>
+
+</Project>

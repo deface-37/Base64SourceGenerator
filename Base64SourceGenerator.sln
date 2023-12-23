@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64SourceGenerator.Example", "Base64SourceGenerator.Example\Base64SourceGenerator.Example.csproj", "{1BD9687C-CB18-49D0-B89A-8A86926B7802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64SourceGenerator", "Base64SourceGenerator\Base64SourceGenerator\Base64SourceGenerator.csproj", "{B69920ED-D8ED-49EB-AFB4-BBE73B0D1BC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD9687C-CB18-49D0-B89A-8A86926B7802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD9687C-CB18-49D0-B89A-8A86926B7802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD9687C-CB18-49D0-B89A-8A86926B7802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD9687C-CB18-49D0-B89A-8A86926B7802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69920ED-D8ED-49EB-AFB4-BBE73B0D1BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69920ED-D8ED-49EB-AFB4-BBE73B0D1BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69920ED-D8ED-49EB-AFB4-BBE73B0D1BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69920ED-D8ED-49EB-AFB4-BBE73B0D1BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
